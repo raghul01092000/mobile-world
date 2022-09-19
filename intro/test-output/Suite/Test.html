@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 19 16:17:01 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>172 seconds (172379 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='intro.signup3.main()'><b>main</b><br>Test class: intro.signup3<br>Parameters: 123456, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul</td>
+<td></td>
+<td>8</td>
+<td>intro.signup3@10feca44</td></tr>
+<tr>
+<td title='intro.contactus3.contactus3()'><b>contactus3</b><br>Test class: intro.contactus3<br>Parameters: r, , 8144114005, </td>
+<td></td>
+<td>10</td>
+<td>intro.contactus3@16a0ee18</td></tr>
+<tr>
+<td title='intro.signup3.main()'><b>main</b><br>Test class: intro.signup3<br>Parameters: raghul, k, 33RAGHUL@gmail.com, H1, 01/09/2000, 81441, hi</td>
+<td></td>
+<td>8</td>
+<td>intro.signup3@10feca44</td></tr>
+<tr>
+<td title='intro.signin3.signin3()'><b>signin3</b><br>Test class: intro.signin3<br>Parameters: , </td>
+<td></td>
+<td>10</td>
+<td>intro.signin3@2a54a73f</td></tr>
+<tr>
+<td title='intro.contactus3.contactus3()'><b>contactus3</b><br>Test class: intro.contactus3<br>Parameters: ra, 33raghul@gamil.com, 8144114005, Hi raghul</td>
+<td></td>
+<td>12</td>
+<td>intro.contactus3@16a0ee18</td></tr>
+<tr>
+<td title='intro.signup3.main()'><b>main</b><br>Test class: intro.signup3<br>Parameters: @#$%^, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul</td>
+<td></td>
+<td>8</td>
+<td>intro.signup3@10feca44</td></tr>
+<tr>
+<td title='intro.signin3.signin3()'><b>signin3</b><br>Test class: intro.signin3<br>Parameters: asdfghjkghjkertyuidfghxcvbfrghjkvbn, aaaaaassssssssssssss1234567890uytrewsdfghnbvf45678</td>
+<td></td>
+<td>9</td>
+<td>intro.signin3@2a54a73f</td></tr>
+<tr>
+<td title='intro.signup3.main()'><b>main</b><br>Test class: intro.signup3<br>Parameters: raghul, 12345678, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul</td>
+<td></td>
+<td>12</td>
+<td>intro.signup3@10feca44</td></tr>
+<tr>
+<td title='intro.signup3.main()'><b>main</b><br>Test class: intro.signup3<br>Parameters: raghul, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul</td>
+<td></td>
+<td>13</td>
+<td>intro.signup3@10feca44</td></tr>
+<tr>
+<td title='intro.signin3.signin3()'><b>signin3</b><br>Test class: intro.signin3<br>Parameters: Raghul, h1</td>
+<td></td>
+<td>11</td>
+<td>intro.signin3@2a54a73f</td></tr>
+<tr>
+<td title='intro.signin3.signin3()'><b>signin3</b><br>Test class: intro.signin3<br>Parameters: Raghul, </td>
+<td></td>
+<td>10</td>
+<td>intro.signin3@2a54a73f</td></tr>
+<tr>
+<td title='intro.contactus3.contactus3()'><b>contactus3</b><br>Test class: intro.contactus3<br>Parameters: raghul, 33RAGHUL@gamil.com, 8144, Hi raghul</td>
+<td></td>
+<td>14</td>
+<td>intro.contactus3@16a0ee18</td></tr>
+<tr>
+<td title='intro.contactus3.contactus3()'><b>contactus3</b><br>Test class: intro.contactus3<br>Parameters: r     a       g, 33raghul@gmail.com, 8144114005, </td>
+<td></td>
+<td>10</td>
+<td>intro.contactus3@16a0ee18</td></tr>
+<tr>
+<td title='intro.signin3.signin3()'><b>signin3</b><br>Test class: intro.signin3<br>Parameters: ra, hr1234</td>
+<td></td>
+<td>9</td>
+<td>intro.signin3@2a54a73f</td></tr>
+<tr>
+<td title='intro.signup3.main()'><b>main</b><br>Test class: intro.signup3<br>Parameters: ra, kumar, 33raghul@gmail.com, 01092000, 01/09/2000, 8144114005111111111, hi i am raghul</td>
+<td></td>
+<td>9</td>
+<td>intro.signup3@10feca44</td></tr>
+<tr>
+<td title='intro.contactus3.contactus3()'><b>contactus3</b><br>Test class: intro.contactus3<br>Parameters: raghul, 33raghul@gamil.com, 8144114005, Hi raghul</td>
+<td></td>
+<td>12</td>
+<td>intro.contactus3@16a0ee18</td></tr>
+</table><p>
+</body>
+</html>

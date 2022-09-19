@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\raghul.s\eclipse-workspace\intro\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.contactus3" class="method navigator-link" hash-for-method="contactus3(r, , 8144114005, )">contactus3(r, , 8144114005, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.contactus3" class="method navigator-link" hash-for-method="contactus3(ra, 33raghul@gamil.com, 8144114005, Hi raghul)">contactus3(ra, 33raghul@gamil.com, 8144114005, Hi raghul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.contactus3" class="method navigator-link" hash-for-method="contactus3(raghul, 33RAGHUL@gamil.com, 8144, Hi raghul)">contactus3(raghul, 33RAGHUL@gamil.com, 8144, Hi raghul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.contactus3" class="method navigator-link" hash-for-method="contactus3(r     a       g, 33raghul@gmail.com, 8144114005, )">contactus3(r     a       g, 33raghul@gmail.com, 8144114005, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.contactus3" class="method navigator-link" hash-for-method="contactus3(raghul, 33raghul@gamil.com, 8144114005, Hi raghul)">contactus3(raghul, 33raghul@gamil.com, 8144114005, Hi raghul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signup3" class="method navigator-link" hash-for-method="main(123456, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)">main(123456, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signup3" class="method navigator-link" hash-for-method="main(raghul, k, 33RAGHUL@gmail.com, H1, 01/09/2000, 81441, hi)">main(raghul, k, 33RAGHUL@gmail.com, H1, 01/09/2000, 81441, hi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signup3" class="method navigator-link" hash-for-method="main(@#$%^, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)">main(@#$%^, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signup3" class="method navigator-link" hash-for-method="main(raghul, 12345678, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)">main(raghul, 12345678, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signup3" class="method navigator-link" hash-for-method="main(raghul, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)">main(raghul, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signup3" class="method navigator-link" hash-for-method="main(ra, kumar, 33raghul@gmail.com, 01092000, 01/09/2000, 8144114005111111111, hi i am raghul)">main(ra, kumar, 33raghul@gmail.com, 01092000, 01/09/2000, 8144114005111111111, hi i am raghul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signin3" class="method navigator-link" hash-for-method="signin3(, )">signin3(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signin3" class="method navigator-link" hash-for-method="signin3(asdfghjkghjkertyuidfghxcvbfrghjkvbn, aaaaaassssssssssssss1234567890uytrewsdfghnbvf45678)">signin3(asdfghjkghjkertyuidfghxcvbfrghjkvbn, aaaaaassssssssssssss1234567890uytrewsdfghnbvf45678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signin3" class="method navigator-link" hash-for-method="signin3(Raghul, h1)">signin3(Raghul, h1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signin3" class="method navigator-link" hash-for-method="signin3(Raghul, )">signin3(Raghul, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="intro.signin3" class="method navigator-link" hash-for-method="signin3(ra, hr1234)">signin3(ra, hr1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">intro.signin3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signin3(, )">
+                  </a> <!-- signin3(, ) -->
+                  <span class="method-name">signin3</span>
+                  <span class="parameters">(, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signin3(asdfghjkghjkertyuidfghxcvbfrghjkvbn, aaaaaassssssssssssss1234567890uytrewsdfghnbvf45678)">
+                  </a> <!-- signin3(asdfghjkghjkertyuidfghxcvbfrghjkvbn, aaaaaassssssssssssss1234567890uytrewsdfghnbvf45678) -->
+                  <span class="method-name">signin3</span>
+                  <span class="parameters">(asdfghjkghjkertyuidfghxcvbfrghjkvbn, aaaaaassssssssssssss1234567890uytrewsdfghnbvf45678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signin3(Raghul, h1)">
+                  </a> <!-- signin3(Raghul, h1) -->
+                  <span class="method-name">signin3</span>
+                  <span class="parameters">(Raghul, h1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signin3(Raghul, )">
+                  </a> <!-- signin3(Raghul, ) -->
+                  <span class="method-name">signin3</span>
+                  <span class="parameters">(Raghul, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signin3(ra, hr1234)">
+                  </a> <!-- signin3(ra, hr1234) -->
+                  <span class="method-name">signin3</span>
+                  <span class="parameters">(ra, hr1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">intro.signup3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main(123456, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)">
+                  </a> <!-- main(123456, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul) -->
+                  <span class="method-name">main</span>
+                  <span class="parameters">(123456, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="main(raghul, k, 33RAGHUL@gmail.com, H1, 01/09/2000, 81441, hi)">
+                  </a> <!-- main(raghul, k, 33RAGHUL@gmail.com, H1, 01/09/2000, 81441, hi) -->
+                  <span class="method-name">main</span>
+                  <span class="parameters">(raghul, k, 33RAGHUL@gmail.com, H1, 01/09/2000, 81441, hi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="main(@#$%^, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)">
+                  </a> <!-- main(@#$%^, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul) -->
+                  <span class="method-name">main</span>
+                  <span class="parameters">(@#$%^, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="main(raghul, 12345678, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)">
+                  </a> <!-- main(raghul, 12345678, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul) -->
+                  <span class="method-name">main</span>
+                  <span class="parameters">(raghul, 12345678, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="main(raghul, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)">
+                  </a> <!-- main(raghul, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul) -->
+                  <span class="method-name">main</span>
+                  <span class="parameters">(raghul, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="main(ra, kumar, 33raghul@gmail.com, 01092000, 01/09/2000, 8144114005111111111, hi i am raghul)">
+                  </a> <!-- main(ra, kumar, 33raghul@gmail.com, 01092000, 01/09/2000, 8144114005111111111, hi i am raghul) -->
+                  <span class="method-name">main</span>
+                  <span class="parameters">(ra, kumar, 33raghul@gmail.com, 01092000, 01/09/2000, 8144114005111111111, hi i am raghul)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">intro.contactus3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactus3(r, , 8144114005, )">
+                  </a> <!-- contactus3(r, , 8144114005, ) -->
+                  <span class="method-name">contactus3</span>
+                  <span class="parameters">(r, , 8144114005, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactus3(ra, 33raghul@gamil.com, 8144114005, Hi raghul)">
+                  </a> <!-- contactus3(ra, 33raghul@gamil.com, 8144114005, Hi raghul) -->
+                  <span class="method-name">contactus3</span>
+                  <span class="parameters">(ra, 33raghul@gamil.com, 8144114005, Hi raghul)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactus3(raghul, 33RAGHUL@gamil.com, 8144, Hi raghul)">
+                  </a> <!-- contactus3(raghul, 33RAGHUL@gamil.com, 8144, Hi raghul) -->
+                  <span class="method-name">contactus3</span>
+                  <span class="parameters">(raghul, 33RAGHUL@gamil.com, 8144, Hi raghul)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactus3(r     a       g, 33raghul@gmail.com, 8144114005, )">
+                  </a> <!-- contactus3(r     a       g, 33raghul@gmail.com, 8144114005, ) -->
+                  <span class="method-name">contactus3</span>
+                  <span class="parameters">(r     a       g, 33raghul@gmail.com, 8144114005, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactus3(raghul, 33raghul@gamil.com, 8144114005, Hi raghul)">
+                  </a> <!-- contactus3(raghul, 33raghul@gamil.com, 8144114005, Hi raghul) -->
+                  <span class="method-name">contactus3</span>
+                  <span class="parameters">(raghul, 33raghul@gamil.com, 8144114005, Hi raghul)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\raghul.s\eclipse-workspace\intro\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;intro.signup3&quot;/&gt;
+      &lt;class name=&quot;intro.signin3&quot;/&gt;
+      &lt;class name=&quot;intro.contactus3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'contactus3')
+data.setCell(0, 2, 'intro.contactus3')
+data.setCell(0, 3, 14433);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'main')
+data.setCell(1, 2, 'intro.signup3')
+data.setCell(1, 3, 13191);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'main')
+data.setCell(2, 2, 'intro.signup3')
+data.setCell(2, 3, 12864);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'contactus3')
+data.setCell(3, 2, 'intro.contactus3')
+data.setCell(3, 3, 12359);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'contactus3')
+data.setCell(4, 2, 'intro.contactus3')
+data.setCell(4, 3, 12091);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'signin3')
+data.setCell(5, 2, 'intro.signin3')
+data.setCell(5, 3, 11156);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'contactus3')
+data.setCell(6, 2, 'intro.contactus3')
+data.setCell(6, 3, 10934);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'signin3')
+data.setCell(7, 2, 'intro.signin3')
+data.setCell(7, 3, 10756);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'contactus3')
+data.setCell(8, 2, 'intro.contactus3')
+data.setCell(8, 3, 10695);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'signin3')
+data.setCell(9, 2, 'intro.signin3')
+data.setCell(9, 3, 10032);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signin3')
+data.setCell(10, 2, 'intro.signin3')
+data.setCell(10, 3, 9831);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'signin3')
+data.setCell(11, 2, 'intro.signin3')
+data.setCell(11, 3, 9629);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'main')
+data.setCell(12, 2, 'intro.signup3')
+data.setCell(12, 3, 9001);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'main')
+data.setCell(13, 2, 'intro.signup3')
+data.setCell(13, 3, 8664);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'main')
+data.setCell(14, 2, 'intro.signup3')
+data.setCell(14, 3, 8581);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'main')
+data.setCell(15, 2, 'intro.signup3')
+data.setCell(15, 3, 8091);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">intro.signup3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">main(raghul, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">main(raghul, k, 33RAGHUL@gmail.com, H1, 01/09/2000, 81441, hi)</span>
+                <span class="method-start">13196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">main(ra, kumar, 33raghul@gmail.com, 01092000, 01/09/2000, 8144114005111111111, hi i am raghul)</span>
+                <span class="method-start">21290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">main(123456, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</span>
+                <span class="method-start">30293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">main(@#$%^, kumar, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</span>
+                <span class="method-start">38878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">main(raghul, 12345678, 33raghul@gmail.com, Hr@01092000, 01/09/2000, 8144114005, hi i am raghul)</span>
+                <span class="method-start">47546 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">intro.signin3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">signin3(Raghul, h1)</span>
+                <span class="method-start">60415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signin3(ra, hr1234)</span>
+                <span class="method-start">71572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signin3(asdfghjkghjkertyuidfghxcvbfrghjkvbn, aaaaaassssssssssssss1234567890uytrewsdfghnbvf45678)</span>
+                <span class="method-start">81202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signin3(Raghul, )</span>
+                <span class="method-start">91034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signin3(, )</span>
+                <span class="method-start">101068 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">intro.contactus3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">contactus3(raghul, 33raghul@gamil.com, 8144114005, Hi raghul)</span>
+                <span class="method-start">111826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactus3(ra, 33raghul@gamil.com, 8144114005, Hi raghul)</span>
+                <span class="method-start">123918 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactus3(raghul, 33RAGHUL@gamil.com, 8144, Hi raghul)</span>
+                <span class="method-start">136277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactus3(r, , 8144114005, )</span>
+                <span class="method-start">150710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactus3(r     a       g, 33raghul@gmail.com, 8144114005, )</span>
+                <span class="method-start">161645 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
